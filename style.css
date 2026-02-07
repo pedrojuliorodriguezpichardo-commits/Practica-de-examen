@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+    132deg, 
+    rgb(54, 54, 211),
+    rgb(234, 24, 156)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content {
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.4);
+    width: 60vh;
+    height: 70vh;
+    padding: 10px;
+    text-shadow: 2px 2px 5px white;
+    border-radius: 50px;
+}
+
+img {
+    border-radius: 100%;
+}
